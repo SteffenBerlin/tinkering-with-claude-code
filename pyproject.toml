@@ -1,0 +1,20 @@
+[project]
+name = "claude-code-intro"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "pydantic-ai>=1.0.5",
+    "pydantic-settings>=2.10.1",
+    "python-dotenv>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.1",
+    "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
+    "pytest-cov>=7.0.0",
+    "ruff>=0.13.0",
+]
